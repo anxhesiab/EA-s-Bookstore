@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	margin: 20px auto;
+}
+
+
+h2{
+	margin: 30px 0 20px 30px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	text-transform: uppercase; 
+	border-left: 5px solid blue;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.book{
+	width: 48%;
+	float: left;
+	background-color: white;
+	margin:  4px;
+	padding: 10px;
+}
+
+.icon{
+	width: 37%;
+	float: left;
+	line-height: 12px;
+}
+
+.content{
+	margin: 100px 10px 10px 10px;
+	
+}
+
+button{
+	background: #1abc9c;
+	border-radius: 5px;
+	padding: 6px 6px;
+	color: #fff;
+	float: right;
+    cursor: pointer;	
+}
